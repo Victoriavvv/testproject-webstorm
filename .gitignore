@@ -1,0 +1,33 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/Test Project IDE.iml
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/workspace.xml
+"\320\275\320\260\321\207\321\202\321\200\320\276\320\271\320\272\320\270"
+
+nodu_modules
+npm-debug.log
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
