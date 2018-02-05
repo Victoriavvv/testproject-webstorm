@@ -1,11 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/
 .idea/Test Project IDE.iml
 .idea/inspectionProfiles/
 .idea/modules.xml
 .idea/workspace.xml
 "\320\275\320\260\321\207\321\202\321\200\320\276\320\271\320\272\320\270"
 
-nodu_modules
+node_modules
 npm-debug.log
 .DS_Store
 

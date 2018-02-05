@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "description": "*здесь находится описание проекта",
+  "dependencies": {
+    "load-json-file": "^4.0.0"
+  },
+  "version": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victoriavvv/testproject-webstorm"
+  },
+  "autor": "me",
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-spritesmith": "0.0.2",
+    "jquery": "^3.3.1",
+    "rimraf": "^2.6.2"
+  }
+}

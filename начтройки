@@ -1,0 +1,45 @@
+1. скачать и настроить git + gitbash
+	-сделать т.н. "первую настройку git" если оноа не сделана :)
+2. поставить node.js, если не стоит
+3. поставить npm, если не стоит
+4. убедиться, что стоит gulp 4 Или поставить поверх 
+			npm install gulpjs/gulp.git#4.0 --save-dev
+
+
+для каждого проекта
+1. зайти на github и создать новый репозиторий под проект
+2. создать проект в шторме
+3. запустить консоль и добавить команду git init
+4. проверить, создалась ли скрытая папка git в проекте с помощью команды ls -a
+5. создать файл README.md
+	https://help.github.com/articles/basic-writing-and-formatting-syntax/
+
+6.создать файл .gitignore и добавить туда файлы
+7. добавит файлы в гит с помощью git add README.md .ignore
+8. закоммитить файлы через git commit -m "first initialization" (название точки)
+9. добавить стройку вконсоль, чтобы гот знал, куда пушить изменения.
+	git remote add origin https://github.com/Victoriavvv/testproject-webstorm.git
+10. команда запушить
+	git push -u origin master
+
+11 . создать и отредактировать файл .json с помощью команды npm init
+12. добавть необходимые пакеты:
+	browsersync.io   ->>>   npm install -g browser-sync
+							npm install browser-sync gulp --save-dev
+							npm install gulp-pug jquery gulp-sass --save-dev
+13. создать файл gulpfile.js
+14. отредактировать файл gulpfile.js
+
+15. Подключить gulp-pug и отредактировать в gulpfile.js
+16. создать рабочие папки source с вложенными: fonts, images, styles, js, template . Сразу можно закинуть туда шрифты и картинки
+17. создать "точку входа" - файл index.pug в папке template
+18. создать задачи в файле gulpfile для pug и style
+19. добавить плагин для спрайта gulp-spritesmith и отредактировать файл gulpfile (+save-dev в команду) 
+		npm i -D gulp-spritesmith --save-dev
+
+20. добавить функцию delete и плагин rimraf 
+		npm install rimraf --save-dev
+21. добавить функции копирования шрифтов и каринок в галпфайл
+22. добавить задачу для копирования
+23. добавить watch-еры 
+24. добавить галп-дефолт
